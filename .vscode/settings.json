@@ -1,0 +1,28 @@
+{
+  "files.autoSave": "onFocusChange",
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "auto-close-tag.enableAutoCloseTag": true,
+  "breadcrumbs.enabled": true,
+  "breadcrumbs.filePath": "on",
+  "zenMode.fullScreen": true,
+  "todohighlight.include": [
+    "**/*.js",
+    "**/*.jsx",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.html",
+    "**/*.php",
+    "**/*.css",
+    "**/*.scss"
+  ],
+  "eslint.alwaysShowStatus": true,
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "eslint.codeActionsOnSave.mode": "all",
+  "prettier.disableLanguages": ["js"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}
